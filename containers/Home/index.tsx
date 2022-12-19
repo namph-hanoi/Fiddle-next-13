@@ -1,5 +1,9 @@
+import styles from './Home.module.scss';
+
 export default function Home() {
   return (
-    <p className="abc">alo</p>
+    <div className={styles.wrapper}>
+      This is a real home page
+    </div>
   )
 }
