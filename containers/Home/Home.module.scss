@@ -1,3 +1,10 @@
-.wrapper {
-  color: red;
+.wrapper :global{
+  .form_wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 500px;
+    min-height: 500px;
+  }
 }
